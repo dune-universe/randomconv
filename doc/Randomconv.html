@@ -5,6 +5,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <link rel="Start" href="index.html">
 <link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
 <link title="Index of values" rel=Appendix href="index_values.html">
 <link title="Index of modules" rel=Appendix href="index_modules.html">
 <link title="Randomconv" rel="Chapter" href="Randomconv.html"><title>Randomconv</title>
@@ -22,9 +23,23 @@ Randomconv - random in various representations
     the output into common number representations: int32, int64, int, and float.
 <p>
 
-    <em>dfbc7a4 - <a href="https://github.com/hannesm/randomconv ">homepage</a></em><br>
+    <em>47c86f7 - <a href="https://github.com/hannesm/randomconv ">homepage</a></em><br>
 </div>
 <hr width="100%">
+
+<pre><span id="TYPEint8"><span class="keyword">type</span> <code class="type"></code>int8</span> = <code class="type">int</code> </pre>
+
+
+<pre><span id="VALint8"><span class="keyword">val</span> int8</span> : <code class="type">(int -> Cstruct.t) -> <a href="Randomconv.html#TYPEint8">int8</a></code></pre><div class="info ">
+<code class="code">in8 g</code> is <code class="code">r</code>, a random <code class="code">int8</code> using the generator <code class="code">g</code>.<br>
+</div>
+
+<pre><span id="TYPEint16"><span class="keyword">type</span> <code class="type"></code>int16</span> = <code class="type">int</code> </pre>
+
+
+<pre><span id="VALint16"><span class="keyword">val</span> int16</span> : <code class="type">(int -> Cstruct.t) -> <a href="Randomconv.html#TYPEint16">int16</a></code></pre><div class="info ">
+<code class="code">int16 g</code> is <code class="code">r</code>, a random <code class="code">int16</code> using the generator <code class="code">g</code>.<br>
+</div>
 
 <pre><span id="VALint32"><span class="keyword">val</span> int32</span> : <code class="type">(int -> Cstruct.t) -> int32</code></pre><div class="info ">
 <code class="code">int32 g</code> is <code class="code">r</code>, a random <code class="code">int32</code> using the generator <code class="code">g</code>.<br>
